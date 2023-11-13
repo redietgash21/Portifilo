@@ -29,6 +29,27 @@ function App() {
             </ul>
           </div>
         </nav>
+         <div class="wrapper">
+            <div class="cols col0">
+                <span class="topline">Hello</span>
+                <h1>I'm <span class="multiText"></span></h1>
+                <p>ehwf gehgu vbebebg vkahfwk kBFJKHWEUIRREU DHGVNN
+                    SFJSdnh  fhjdbfdvsddnbuigh dhfjd dkjhafjlhg ksjdfs
+                    sdhs hjhgbjsdbscdggdnvjdbkd df bfbkjfkdbv dbhbvsbva
+                    
+                </p>
+                <div class="btns">
+                    <button>download CV</button>
+                    <button>hire me</button>
+                </div>
+            </div>
+            <div class="cols col1">
+                <div class="imgBox">
+                    <img src="violet.png"  id="splash"/>
+                    <img src="aboutMe.png" />
+                </div>
+            </div>
+        </div>
       </div>   
     </div>
   );
