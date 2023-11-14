@@ -4,7 +4,7 @@
 
 
 import { useEffect } from 'react';
-
+import aboutme from "./AboutMe.png"
 import './App.css';
 // import { editTodoTable } from '../../server/controllers/todoController';
 
@@ -45,8 +45,8 @@ function App() {
             </div>
             <div class="cols col1">
                 <div class="imgBox">
-                    <img src="violet.png"  id="splash"/>
-                    <img src="aboutMe.png" />
+                    
+                    <img src={aboutme} />
                 </div>
             </div>
         </div>
@@ -56,7 +56,7 @@ function App() {
         <div class="sectionContainer">
             <div class="sectionPicContainer">
                 <img 
-                src="./assets/aboutMe.png"
+                src="./aboutMe.png"
                 alt="profile pic"
                 class="aboutPic"/>
             </div>  
@@ -199,12 +199,13 @@ function App() {
            </div>                    
            </div>
         </div>      
-    </div>
+    
     <img src="./assets/downArrow.png" 
     alt="Down Arrow"
     class="icon arrow"
-    onclick="location.href='./#projects'"> 
+    onclick="location.href='./#projects'"/> 
     </section>
+    
       </div>   
     </div>
   );
