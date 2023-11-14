@@ -33,10 +33,14 @@ function App() {
             <div class="cols col0">
                 <span class="topline">Hello</span>
                 <h1>I'm <span class="multiText"></span></h1>
-                <p>ehwf gehgu vbebebg vkahfwk kBFJKHWEUIRREU DHGVNN
-                    SFJSdnh  fhjdbfdvsddnbuigh dhfjd dkjhafjlhg ksjdfs
-                    sdhs hjhgbjsdbscdggdnvjdbkd df bfbkjfkdbv dbhbvsbva
-                    
+                <p>
+                Enthusiastic and motivated fresh Software Engineering graduate from Bahir Dar University with strong
+                problem-solving skills and commitment to excellence, seeking an entry-level role in software and IT.
+                Excited to use my skills and educational training to support the technology and add value while learning
+                and advancing forward in knowledge and experience. I am very committed to delivering excellence and
+                helping my employer as well as myself. I have acquired knowledge in programming languages such as
+                React, Node.js, MySQL, HTML, CSS, JavaScript, and GitHub, as well as hands-on experience with
+                Property management systems and Patient management systems.
                 </p>
                 <div class="btns">
                     <button>download CV</button>
