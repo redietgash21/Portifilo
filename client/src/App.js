@@ -5,6 +5,8 @@
 
 import { useEffect } from 'react';
 import aboutme from "./AboutMe.png"
+import experience from "./experience.png"
+import Education from "./Education.png"
 import './App.css';
 // import { editTodoTable } from '../../server/controllers/todoController';
 
@@ -33,15 +35,7 @@ function App() {
             <div class="cols col0">
                 <span class="topline">Hello</span>
                 <h1>I'm <span class="multiText"></span></h1>
-                <p className='homep'>
-                Enthusiastic and motivated fresh Software Engineering graduate from Bahir Dar University with strong
-                problem-solving skills and commitment to excellence, seeking an entry-level role in software and IT.
-                Excited to use my skills and educational training to support the technology and add value while learning
-                and advancing forward in knowledge and experience. I am very committed to delivering excellence and
-                helping my employer as well as myself. I have acquired knowledge in programming languages such as
-                React, Node.js, MySQL, HTML, CSS, JavaScript, and GitHub, as well as hands-on experience with
-                Property management systems and Patient management systems.
-                </p>
+          
                 <div class="btns">
                     <button>download CV</button>
                     <button>hire me</button>
@@ -59,16 +53,21 @@ function App() {
         <h1 class="title">About Me</h1>
         <div class="sectionContainer">
             <div class="sectionPicContainer">
-                <img 
-                src="./aboutMe.png"
-                alt="profile pic"
-                class="aboutPic"/>
+                    <p className='homep'>
+                Enthusiastic and motivated fresh Software Engineering graduate from Bahir Dar University with strong
+                problem-solving skills and commitment to excellence, seeking an entry-level role in software and IT.
+                Excited to use my skills and educational training to support the technology and add value while learning
+                and advancing forward in knowledge and experience. I am very committed to delivering excellence and
+                helping my employer as well as myself. I have acquired knowledge in programming languages such as
+                React, Node.js, MySQL, HTML, CSS, JavaScript, and GitHub, as well as hands-on experience with
+                Property management systems and Patient management systems.
+                </p>
             </div>  
             <div class="aboutDetailsContainer">
                 <div class="aboutContainers">
                     <div class="detailsContainer">
                         <img
-                          src="./assets/experience.png"
+                          src={experience}
                           alt="Exprience Icon"
                           class="icon"/>
                         <h3>Exprience</h3>
@@ -76,7 +75,7 @@ function App() {
                     </div>
                     <div class="detailsContainer">
                         <img
-                          src="./assets/Education.png"
+                          src={Education}
                           alt="Education Icon"
                           class="icon"/>
                         <h3>Education</h3>
