@@ -133,3 +133,40 @@ a:hover{
   right: 50px;
   animation: animateUser 4s linear infinite;
 }
+.sectionTextp1{
+  text-align: center;
+}
+.title{
+  font-size: 3rem;
+  text-align: center;
+}
+.sectionContainer{
+  gap: 4rem;
+  height: 80%;
+  display: flex;
+}
+.aboutDetailsContainer{
+  justify-content: center;
+  flex-direction: column;
+}
+.aboutContainers, .aboutDetailsContainer{
+  display: flex;
+}
+.aboutContainers{
+  gap: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.detailsContainer{
+  padding: 1.5rem;
+  flex: 1;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
+}
+.icon{
+  cursor: pointer;
+  height: 2rem;
+}
