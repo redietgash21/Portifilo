@@ -33,7 +33,7 @@ function App() {
             <div class="cols col0">
                 <span class="topline">Hello</span>
                 <h1>I'm <span class="multiText"></span></h1>
-                <p>
+                <p className='homep'>
                 Enthusiastic and motivated fresh Software Engineering graduate from Bahir Dar University with strong
                 problem-solving skills and commitment to excellence, seeking an entry-level role in software and IT.
                 Excited to use my skills and educational training to support the technology and add value while learning

@@ -15,7 +15,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #f9ca24;
-  color: black;
+  color: white;
 }
 
 code {
@@ -54,4 +54,69 @@ a:hover{
   text-decoration: underline;
   text-underline-offset: 1rem;
   text-decoration-color: grey;
+}
+.wrapper{
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10%;
+  overflow: hidden;
+}
+.wrapper::before{
+ position: absolute;
+ content: '';
+ height: 400px;
+ width: 400px;
+ border-radius: 50%;
+ left: -12%;
+ top: 40%;
+ background: linear-gradient(45deg, #7f00ff, pink);
+ animation: object1 6s linear infinite;
+}
+.wrapper::after{
+  position: absolute;
+  content: '';
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  left: 35%;
+  top: 12%;
+  background: linear-gradient(45deg, #7f00ff, pink);
+  animation: object2 6s linear infinite;
+}
+.cols{
+  width: 50%;
+  z-index: 5;
+}
+.topline{
+  display: block;
+  position: relative;
+  font-size: 35px;
+  letter-spacing: 5px;
+  color: #3d535f;
+}
+.topline::after{
+  position: absolute;
+  content: '';
+  height: 4px;
+  width: 45px;
+  bottom: 10px;
+  background-color: #7f00ff;
+}
+.multiText{
+  color: #7f00ff;
+  text-transform: capitalize;
+}
+.homep{
+  display: block;
+  width: 90%;
+  font-size: 1.2em;
+  color: #3d535f;
+}
+.btns{
+  width: 100%;
+  position: relative;
+  left: 150px;
 }
