@@ -208,6 +208,19 @@ function App() {
     class="icon arrow"
     onclick="location.href='./#projects'"/> 
     </section>
+    <footer>
+        <nav>
+            <div class="navLinksContainer">
+                <ul class="navLinks">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#exprience">Exprience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>   
+            </div>
+        </nav>
+        <p>Copyright &#169; 2023 Rediet Gashaw. All Rights Reserved.</p>
+    </footer>
     
       </div>   
     </div>
