@@ -7,6 +7,7 @@ import { useEffect } from 'react';
 import aboutme from "./AboutMe.png"
 import experience from "./experience.png"
 import Education from "./Education.png"
+import cheackMark from "./cheackMark.png"
 import './App.css';
 // import { editTodoTable } from '../../server/controllers/todoController';
 
@@ -104,7 +105,7 @@ function App() {
                     <h2 class="experienceSubTitle">Frontend Development</h2>
                     <div class="articleContainer">
                         <article>
-                            <img src="./assets/cheackMark.png" 
+                            <img src={cheackMark}
                                 alt="Experience Icon"
                                  class="icon"/>
                                 <div>
@@ -113,7 +114,7 @@ function App() {
                                 </div>
                         </article>
                         <article>
-                            <img src="./assets/cheackMark.png" 
+                        <img src={cheackMark}
                                 alt="Experience Icon"
                                 class="icon"/>
                                 <div>
@@ -122,7 +123,7 @@ function App() {
                                 </div>
                         </article>
                         <article>
-                            <img src="./assets/cheackMark.png" 
+                        <img src={cheackMark}
                                 alt="Experience Icon"
                                 class="icon"/>
                                 <div>
@@ -131,7 +132,7 @@ function App() {
                                 </div>
                         </article>
                         <article>
-                            <img src="./assets/cheackMark.png" 
+                        <img src={cheackMark}
                                 alt="Experience Icon"
                                 class="icon"/>
                                 <div>
@@ -139,31 +140,14 @@ function App() {
                                     <p>Basic</p>
                                 </div>
                         </article>
-                        <article>
-                            <img src="./assets/cheackMark.png" 
-                                alt="Experience Icon"
-                                class="icon"/>
-                                <div>
-                                    <h3>TypeScript</h3>
-                                    <p>Basic</p>
-                                </div>
-                        </article>
-                        <article>
-                            <img src="./assets/cheackMark.png" 
-                                alt="Experience Icon"
-                                class="icon"/>
-                                <div>
-                                    <h3>Material UI</h3>
-                                    <p>Intermediate</p>
-                                </div>
-                        </article>
+                    
                     </div>
                </div>     
                <div class="detailsContainer">
                 <h2 class="experienceSubTitle">Backend Development</h2>
                 <div class="articleContainer">
                     <article>
-                        <img src="./assets/cheackMark.png" 
+                    <img src={cheackMark}
                             alt="Experience Icon"
                             class="icon"/>
                             <div>
@@ -172,7 +156,7 @@ function App() {
                             </div>
                     </article>
                     <article>
-                        <img src="./assets/cheackMark.png" 
+                    <img src={cheackMark}
                             alt="Experience Icon"
                             class="icon"/>
                             <div>
@@ -181,7 +165,7 @@ function App() {
                             </div>
                     </article>
                     <article>
-                        <img src="./assets/cheackMark.png" 
+                    <img src={cheackMark}
                             alt="Experience Icon"
                             class="icon"/>
                             <div>
@@ -190,7 +174,7 @@ function App() {
                             </div>
                     </article>
                     <article>
-                        <img src="./assets/cheackMark.png" 
+                    <img src={cheackMark}
                             alt="Experience Icon"
                             class="icon"/>
                             <div>
