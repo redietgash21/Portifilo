@@ -8,12 +8,19 @@ import aboutme from "./AboutMe.png"
 import experience from "./experience.png"
 import Education from "./Education.png"
 import cheackMark from "./cheackMark.png"
+import {useTypewriter, Cursor} from 'react-simple-typewriter'
 import './App.css';
 // import { editTodoTable } from '../../server/controllers/todoController';
 
 
 function App() {
-  
+  const {text} = useTypewriter({
+    words: [
+         'Front end ',
+         'Backend end ',
+          'Fullstack '],
+    loop:{},
+  })
     useEffect(() => {
  
     },[])
@@ -21,9 +28,9 @@ function App() {
     <div className="App">
       <div className='container'>
         <nav id="desktopNav">
-          <div class="logo">Rediet Gashaw</div>
+          <div className="logo">Rediet Gashaw</div>
           <div >
-            <ul class="navLinks">
+            <ul className="navLinks">
               <li><a href="#home">Home</a></li>
               <li><a href="#about">About</a></li>
               <li><a href="#exprience">Exprience</a></li>
@@ -32,18 +39,23 @@ function App() {
             </ul>
           </div>
         </nav>
-         <div class="wrapper">
-            <div class="cols col0">
-                <span class="topline">Hello</span>
-                <h1>I'm <span class="multiText"></span></h1>
+         <div className="home">
+            <div className="cols col0">
+                <span className="topline">Hello</span>
+                <h1>I'm 
+                    <span style={{color:'green'}} >
+                        {text}
+                    </span>
+                    <Cursor/>
+                </h1>
           
-                <div class="btns">
-                    <button>download CV</button>
-                    <button>hire me</button>
+                <div className="btns">
+                    <button className="btn">download CV</button>
+                    <button className="btn">hire me</button>
                 </div>
             </div>
-            <div class="cols col1">
-                <div class="imgBox">
+            <div className="cols col1">
+                <div className="imgBox">
                     
                     <img src={aboutme} />
                 </div>
