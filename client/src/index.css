@@ -192,8 +192,19 @@ a:active{
   right: -150px;
   animation: animateUser 4s linear infinite;
 }
-.sectionTextp1{
+.about{
+  position: relative;
+  width: 80%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  padding: 2% 10%;
+ 
+  box-shadow: 5px 5px 10px 10px var(--yellow) ;
+}
+.aboutTextp1{
   text-align: center;
+  color: var(--white);
 }
 .title{
   font-size: 3rem;
