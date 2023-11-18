@@ -39,7 +39,7 @@ function App() {
             </ul>
           </div>
         </nav>
-         <div className="home">
+         <div className="home" id='home'>
             <div className="cols col0">
                 <span className="topline">Hello</span>
                 <h1>I'm 
@@ -61,8 +61,8 @@ function App() {
                 </div>
             </div>
         </div>
-        <section id="about">
-        <p class="sectionTextp1">Get To Konow More</p>
+        <section id="about" className='about'>
+        <p class="aboutTextp1">Get To Konow More</p>
         <h1 class="title">About Me</h1>
         <div class="sectionContainer">
             <div class="sectionPicContainer">
