@@ -121,7 +121,7 @@ a:active{
 }
 
 .aboutp{
- 
+  padding-top: 2rem;
   width: 98%;
   font-size: 1.3em;
   color: var(--white);
@@ -192,17 +192,18 @@ a:active{
   right: -150px;
   animation: animateUser 4s linear infinite;
 }
-.about{
+.about, .exprience{
   position: relative;
   width: 80%;
-  height: 100vh;
+  height: 90vh;
   justify-content: center;
   align-items: center;
   padding: 2% 10%;
  
   box-shadow: 5px 5px 10px 10px var(--yellow) ;
 }
-.aboutTextp1{
+
+.p1{
   text-align: center;
   color: var(--white);
 }
@@ -232,7 +233,7 @@ a:active{
 }
 .aboutContainers{
   gap: 2rem;
-  margin-top: -4rem;
+  margin-top: 2rem;
   margin-bottom: 2rem;
 }
 .detailsContainer{
@@ -252,9 +253,7 @@ a:active{
 
 .downarrow{
   background-color: var(--white);
-  
   width: 40px;
-
   border-radius: 50px;
 }
 #exprience{
