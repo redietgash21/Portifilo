@@ -120,11 +120,11 @@ a:active{
   background-color: var(--yellow);
 }
 
-.homep{
-  display: block;
-  width: 90%;
-  font-size: 1.2em;
-  color: #3d535f;
+.aboutp{
+ 
+  width: 98%;
+  font-size: 1.3em;
+  color: var(--white);
 }
 .btns{
   padding-left: 30%;
@@ -212,9 +212,17 @@ a:active{
 }
 .sectionContainer{
   gap: 4rem;
-  height: 80%;
+  height: 70%;
   display: flex;
 }
+
+.aboutSectionText{
+
+  height: 400px;
+  width: 100%;
+  margin: auto 0;
+}
+
 .aboutDetailsContainer{
   justify-content: center;
   flex-direction: column;
@@ -224,24 +232,31 @@ a:active{
 }
 .aboutContainers{
   gap: 2rem;
-  margin-top: 2rem;
+  margin-top: -4rem;
   margin-bottom: 2rem;
 }
 .detailsContainer{
-  padding: 1.5rem;
+  padding: 1rem 5rem 0 5rem;
   flex: 1;
-  background: white;
+  background: var(--white);
   border-radius: 2rem;
-  border: rgb(53, 53, 53) 0.1rem solid;
-  border-color: rgb(163, 163, 163);
+  border: var(--yellow) 0.5rem solid;
+  border-color: var(--yellow);
   text-align: center;
 }
 .icon{
   cursor: pointer;
   height: 2rem;
+  color: var(--white);
 }
 
+.downarrow{
+  background-color: var(--white);
+  
+  width: 40px;
 
+  border-radius: 50px;
+}
 #exprience{
   position: relative;
 }
