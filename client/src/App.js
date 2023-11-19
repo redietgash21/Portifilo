@@ -63,7 +63,7 @@ function App() {
             </div>
         </div>
         <section id="about" className='about'>
-        <p class="aboutTextp1">Get To Konow More</p>
+        <p class="p1">Get To Konow More</p>
         <h1 class="title">About Me</h1>
         <div class="sectionContainer">
             <div class="aboutSectionText">
@@ -108,8 +108,8 @@ function App() {
         </div>
              
     </section>
-    <section id="exprience">
-        <p class="sectionTextp1">Explore My</p>
+    <section id="exprience" className='exprience'>
+        <p class="p1">Explore My</p>
         <h1 class="title">Experience</h1>
         <div class="exprianceDetailsContainer">           
             <div class="aboutContainers">
@@ -198,11 +198,12 @@ function App() {
            </div>                    
            </div>
         </div>      
-    
-    <img src={downArrow} 
-    alt="Down Arrow"
-    class="icon arrow"
-    onclick="location.href='./#projects'"/> 
+        <div className='downarrow'>
+            <img src={downArrow} 
+            alt="Down Arrow"
+            class="icon arrow"
+            onclick="location.href='./#projects'"/> 
+        </div>
     </section>
     <footer>
         <nav>
