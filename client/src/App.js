@@ -139,7 +139,7 @@ function App() {
                                 alt="Experience Icon"
                                 class="icon"/>
                                 <div>
-                                    <h3>SASS</h3>
+                                    <h3>React</h3>
                                     <p>Intermediate</p>
                                 </div>
                         </article>
@@ -205,6 +205,38 @@ function App() {
             onclick="location.href='./#projects'"/> 
         </div>
     </section>
+    <section class="contact" id="contact">
+    <p class="p1">To Find</p>
+        <h1 class="title">Contactme On</h1>
+        
+        <div class="exprianceDetailsContainer">           
+            <div class="aboutContainers">
+            <div class="detailsContainer">
+                    <h3 >contact info</h3>
+                    <div class="info">
+                        <h3>Email:   redietgash21@gmail.com</h3>
+                        <h3>Phone:    +251936208599</h3>
+                        <h3>Address:    Addis Ababa,Ethiopia</h3>
+                    
+                    </div>
+                </div>
+            </div>
+            <div class="detailsContainer">
+                
+            <form action="">
+                <input type="text" placeholder="name" class="box"/>
+                <input type="email" placeholder="email" class="box"/>
+                <input type="text" placeholder="project" class="box"/>
+                <textarea name="" id="" cols="30" rows="10" class="box message"
+                placeholder="message">
+
+                </textarea>
+                <button type="submit" class="btn">Send </button>
+            </form>
+            </div>
+            </div>
+        
+     </section>
     <footer>
         <nav>
             <div class="navLinksContainer">
