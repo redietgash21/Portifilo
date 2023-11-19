@@ -8,6 +8,7 @@ import aboutme from "./AboutMe.png"
 import experience from "./experience.png"
 import Education from "./Education.png"
 import cheackMark from "./cheackMark.png"
+import downArrow from "./downArrow.png"
 import {useTypewriter, Cursor} from 'react-simple-typewriter'
 import './App.css';
 // import { editTodoTable } from '../../server/controllers/todoController';
@@ -65,8 +66,8 @@ function App() {
         <p class="aboutTextp1">Get To Konow More</p>
         <h1 class="title">About Me</h1>
         <div class="sectionContainer">
-            <div class="sectionPicContainer">
-                    <p className='homep'>
+            <div class="aboutSectionText">
+                    <p className='aboutp'>
                 Enthusiastic and motivated fresh Software Engineering graduate from Bahir Dar University with strong
                 problem-solving skills and commitment to excellence, seeking an entry-level role in software and IT.
                 Excited to use my skills and educational training to support the technology and add value while learning
@@ -95,18 +96,17 @@ function App() {
                         <p>B.Sc Bachelors Degree Software Engineering</p>
                     </div>
                 </div>
-                <div class="textContainer">
-                    <p>Your Image Is Starting To Download Automatically Now.
-                        Unleash Your Creativity, Let Your Design Come to Life Instantly
-                        TopPNG.</p>
-                </div>
+             
      
             </div>            
         </div> 
-        <img src="./assets/downArrow.png" 
+        <div className='downarrow'>
+            <img src={downArrow} 
              alt="Down Arrow"
              class="icon arrow"
-             onclick="location.href='./#exprience'"/>      
+             onclick="location.href='./#exprience'"/> 
+        </div>
+             
     </section>
     <section id="exprience">
         <p class="sectionTextp1">Explore My</p>
@@ -199,7 +199,7 @@ function App() {
            </div>
         </div>      
     
-    <img src="./assets/downArrow.png" 
+    <img src={downArrow} 
     alt="Down Arrow"
     class="icon arrow"
     onclick="location.href='./#projects'"/> 
