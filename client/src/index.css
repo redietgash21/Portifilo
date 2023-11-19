@@ -134,7 +134,7 @@ a:active{
   width: 23rem;
   height: 5rem;
 }
-.btns .btn{
+.btns .btn, .btn{
   position: relative;
   display: inline-flex;
   justify-content: center;
@@ -152,7 +152,7 @@ a:active{
   overflow: hidden;
   transition: .5s;
 }
-.btns .btn:hover{
+.btns .btn:hover,.btn:hover{
   color: var(--yellow);
 }
 .btns .btn:nth-child(2){
@@ -165,7 +165,7 @@ a:active{
 .btns .btn:nth-child(2):hover{
   color: var(--black);
 }
-.btns .btn::before{
+.btns .btn::before, .btn::before{
  content: '';
  position: absolute;
  top: 0;
@@ -176,7 +176,7 @@ a:active{
  z-index: -1;
  transition: .5s;
 }
-.btns .btn:hover::before{
+.btns .btn:hover::before,.btn:hover::before{
  width: 100%;
 }
 .imgBox{
@@ -192,7 +192,7 @@ a:active{
   right: -150px;
   animation: animateUser 4s linear infinite;
 }
-.about, .exprience{
+.about, .exprience, .contact{
   position: relative;
   width: 80%;
   height: 90vh;
@@ -288,15 +288,22 @@ article .icon{
   cursor: default;
 }
 
-
-
-
-
-
-footer{
-  height: 26vh;
-  margin: 0 1rem;
+.box {
+  padding: 0.5rem;
+  margin: 0.5rem;
+  border: none;
+  border-bottom: 1px var(--yellow) solid;
+  border-left: 1px var(--yellow) solid;
+  border-right: 1px var(--yellow) solid;
+  background: var(--white);
+  color: var(--yellow);
+  text-transform: none;
+  font-size: 1.rem;
+  width: 100%;
 }
-footer p{
-  text-align: center;
+form {
+  flex: 1 1 45rem;
+  padding: 2rem;
+  margin: 2rem;
+  margin-bottom: 4rem;
 }
