@@ -9,19 +9,13 @@ import experience from "./experience.png"
 import Education from "./Education.png"
 import cheackMark from "./cheackMark.png"
 import downArrow from "./downArrow.png"
-import {useTypewriter, Cursor} from 'react-simple-typewriter'
+import Typewriter from 'typewriter-effect'
 import './App.css';
 // import { editTodoTable } from '../../server/controllers/todoController';
 
 
 function App() {
-  const {text} = useTypewriter({
-    words: [
-         'Front end ',
-         'Backend end ',
-          'Fullstack '],
-    loop:{},
-  })
+ 
     useEffect(() => {
  
     },[])
@@ -44,10 +38,24 @@ function App() {
             <div className="cols col0">
                 <span className="topline">Hello</span>
                 <h1>I'm 
-                    <span style={{color:'green'}} >
-                        {text}
+                    <span  >
+                        <Typewriter
+                          onInit={(typewriter)=>{
+                            typewriter
+                             .typeString("Frontend developer")
+                             .pauseFor(1000)
+                             .deleteAll()
+                             .typeString("Backend developer")
+                             .pauseFor(1000)
+                             .deleteAll()
+                             .typeString("Full stack developer")
+                             .pauseFor(1000)
+                             .deleteAll()
+                             .start();
+                          }}
+                        />
                     </span>
-                    <Cursor/>
+                  
                 </h1>
           
                 <div className="btns">
