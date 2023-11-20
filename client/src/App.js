@@ -219,8 +219,8 @@ function App() {
                         <h3>Address:    Addis Ababa,Ethiopia</h3>
                     
                     </div>
-                </div>
             </div>
+          
             <div class="detailsContainer">
                 
             <form action="">
@@ -233,6 +233,7 @@ function App() {
                 </textarea>
                 <button type="submit" class="btn">Send </button>
             </form>
+            </div>
             </div>
             </div>
         
