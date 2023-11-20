@@ -39,7 +39,7 @@ nav{
   justify-content: space-around;
   align-items: center;
   height: 10vh;
-  
+  margin-bottom: 2%;
   box-shadow: 5px 5px 10px 10px var(--yellow) ;
 }
 .navLinks{
@@ -71,6 +71,7 @@ a:active{
   height: 100vh;
   justify-content: center;
   align-items: center;
+  margin-bottom: 2%;
   padding: 0 10%;
   overflow: hidden;
   box-shadow: 5px 5px 10px 10px var(--yellow) ;
@@ -192,14 +193,24 @@ a:active{
   right: -150px;
   animation: animateUser 4s linear infinite;
 }
-.about, .exprience, .contact{
+.about, .exprience{
   position: relative;
   width: 80%;
   height: 90vh;
   justify-content: center;
   align-items: center;
   padding: 2% 10%;
- 
+  margin-bottom: 2%;
+  box-shadow: 5px 5px 10px 10px var(--yellow) ;
+}
+ .contact{
+  position: relative;
+  width: 80%;
+  height: 110vh;
+  justify-content: center;
+  align-items: center;
+  padding: 2% 10%;
+  margin-bottom: 2%;
   box-shadow: 5px 5px 10px 10px var(--yellow) ;
 }
 
