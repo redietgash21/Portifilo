@@ -9,6 +9,8 @@ import experience from "./experience.png"
 import Education from "./Education.png"
 import cheackMark from "./cheackMark.png"
 import downArrow from "./downArrow.png"
+import linkdin from "./linkdin.png"
+import github from "./github-logo.png"
 import Typewriter from 'typewriter-effect'
 import './App.css';
 // import { editTodoTable } from '../../server/controllers/todoController';
@@ -225,7 +227,16 @@ function App() {
                         <h3>Email:   redietgash21@gmail.com</h3>
                         <h3>Phone:    +251936208599</h3>
                         <h3>Address:    Addis Ababa,Ethiopia</h3>
-                    
+                         <div id="socialsContainer">
+                <img src={linkdin}
+                     alt="My linkedin Profile"
+                     class="icon"
+                    />
+                <img src={github}
+                alt="My linkedin Profile"
+                class="icon"
+               />
+            </div>
                     </div>
             </div>
           
