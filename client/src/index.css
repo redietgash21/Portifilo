@@ -261,6 +261,10 @@ a:active{
   height: 2rem;
   color: var(--white);
 }
+.icon፡hover{
+  cursor: pointer;
+  height: 5rem;
+}
 
 .downarrow{
   background-color: var(--white);
