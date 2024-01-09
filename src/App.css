@@ -35,6 +35,11 @@ button{
   padding-right: 20%;
   font-size: larger;
 }
+.column{
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 20px;
+}
 
 
 

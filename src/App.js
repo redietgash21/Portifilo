@@ -11,6 +11,7 @@ import cheackMark from "./assets/cheackMark.png"
 import downArrow from "./assets/downArrow.png"
 import linkdin from "./assets/linkdin.png"
 import github from "./assets/github-logo.png"
+import resume from "./assets/Rediet Gashaw-Resume.pdf"
 import Typewriter from 'typewriter-effect'
 import './App.css';
 // import { editTodoTable } from '../../server/controllers/todoController';
@@ -62,7 +63,7 @@ function App() {
           
                 <div className="btns">
                     
-                        <a href='' download="Rediet Gashaw-Resume">
+                        <a href={resume} download="Rediet Gashaw-Resume">
                         <button className="btn">
                             download CV
                          </button>
@@ -134,12 +135,59 @@ function App() {
                <div class="detailsContainer">
                     <h2 class="experienceSubTitle">Frontend Development</h2>
                     <div class="articleContainer">
-                        <article>
+                        <div className='column'>
+                            <article>
+                                <img src={cheackMark}
+                                    alt="Experience Icon"
+                                    class="icon"/>
+                                    <div>
+                                        <h3>HTML</h3>
+                                        <p>Exprienced</p>
+                                    </div>
+                            </article>
+                            <article>
                             <img src={cheackMark}
+                                    alt="Experience Icon"
+                                    class="icon"/>
+                                    <div>
+                                        <h3>CSS</h3>
+                                        <p>Exprienced</p>
+                                    </div>
+                            </article>
+                        </div>
+                        <div className='column'>
+                            <article>
+                            <img src={cheackMark}
+                                    alt="Experience Icon"
+                                    class="icon"/>
+                                    <div>
+                                        <h3>React</h3>
+                                        <p>Intermediate</p>
+                                    </div>
+                            </article>
+                            <article>
+                            <img src={cheackMark}
+                                    alt="Experience Icon"
+                                    class="icon"/>
+                                    <div>
+                                        <h3>JavaScript</h3>
+                                        <p>Basic</p>
+                                    </div>
+                            </article>
+                        </div>
+                    
+                    </div>
+               </div>     
+               <div class="detailsContainer">
+                <h2 class="experienceSubTitle">Backend Development</h2>
+                <div class="articleContainer">
+                  <div className='column'>
+                        <article>
+                        <img src={cheackMark}
                                 alt="Experience Icon"
-                                 class="icon"/>
+                                class="icon"/>
                                 <div>
-                                    <h3>HTML</h3>
+                                    <h3>MySQL</h3>
                                     <p>Exprienced</p>
                                 </div>
                         </article>
@@ -148,16 +196,18 @@ function App() {
                                 alt="Experience Icon"
                                 class="icon"/>
                                 <div>
-                                    <h3>CSS</h3>
-                                    <p>Exprienced</p>
+                                    <h3>Node JS</h3>
+                                    <p>Intermediate</p>
                                 </div>
                         </article>
+                    </div>
+                    <div className='column'>
                         <article>
                         <img src={cheackMark}
                                 alt="Experience Icon"
                                 class="icon"/>
                                 <div>
-                                    <h3>React</h3>
+                                    <h3>Express JS</h3>
                                     <p>Intermediate</p>
                                 </div>
                         </article>
@@ -166,52 +216,11 @@ function App() {
                                 alt="Experience Icon"
                                 class="icon"/>
                                 <div>
-                                    <h3>JavaScript</h3>
-                                    <p>Basic</p>
+                                    <h3>Git</h3>
+                                    <p>Intermediate</p>
                                 </div>
-                        </article>
-                    
-                    </div>
-               </div>     
-               <div class="detailsContainer">
-                <h2 class="experienceSubTitle">Backend Development</h2>
-                <div class="articleContainer">
-                    <article>
-                    <img src={cheackMark}
-                            alt="Experience Icon"
-                            class="icon"/>
-                            <div>
-                                <h3>MySQL</h3>
-                                <p>Exprienced</p>
-                            </div>
-                    </article>
-                    <article>
-                    <img src={cheackMark}
-                            alt="Experience Icon"
-                            class="icon"/>
-                            <div>
-                                <h3>Node JS</h3>
-                                <p>Intermediate</p>
-                            </div>
-                    </article>
-                    <article>
-                    <img src={cheackMark}
-                            alt="Experience Icon"
-                            class="icon"/>
-                            <div>
-                                <h3>Express JS</h3>
-                                <p>Intermediate</p>
-                            </div>
-                    </article>
-                    <article>
-                    <img src={cheackMark}
-                            alt="Experience Icon"
-                            class="icon"/>
-                            <div>
-                                <h3>Git</h3>
-                                <p>Intermediate</p>
-                            </div>
-                    </article>                         
+                        </article> 
+                    </div>                        
                 </div>
            </div>                    
            </div>
