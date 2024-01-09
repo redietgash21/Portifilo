@@ -61,7 +61,13 @@ function App() {
                 </h1>
           
                 <div className="btns">
-                    <button className="btn">download CV</button>
+                    
+                        <a href='' download="Rediet Gashaw-Resume">
+                        <button className="btn">
+                            download CV
+                         </button>
+                        </a>
+                    
                     <button className="btn">hire me</button>
                 </div>
             </div>
@@ -111,10 +117,12 @@ function App() {
             </div>            
         </div> 
         <div className='downarrow'>
+        <a href="#exprience">
             <img src={downArrow} 
              alt="Down Arrow"
              class="icon arrow"
              onclick="location.href='./#exprience'"/> 
+             </a>
         </div>
              
     </section>
@@ -209,10 +217,12 @@ function App() {
            </div>
         </div>      
         <div className='downarrow'>
+        <a href="#contact">
             <img src={downArrow} 
             alt="Down Arrow"
             class="icon arrow"
             onclick="location.href='./#projects'"/> 
+            </a>
         </div>
     </section>
     <section class="contact" id="contact">
