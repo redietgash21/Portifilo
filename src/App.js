@@ -4,13 +4,13 @@
 
 
 import { useEffect } from 'react';
-import aboutme from "./AboutMe.png"
-import experience from "./experience.png"
-import Education from "./Education.png"
-import cheackMark from "./cheackMark.png"
-import downArrow from "./downArrow.png"
-import linkdin from "./linkdin.png"
-import github from "./github-logo.png"
+import aboutme from "./assets/AboutMe.png"
+import experience from "./assets/experience.png"
+import Education from "./assets/Education.png"
+import cheackMark from "./assets/cheackMark.png"
+import downArrow from "./assets/downArrow.png"
+import linkdin from "./assets/linkdin.png"
+import github from "./assets/github-logo.png"
 import Typewriter from 'typewriter-effect'
 import './App.css';
 // import { editTodoTable } from '../../server/controllers/todoController';
