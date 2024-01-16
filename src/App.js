@@ -3,7 +3,7 @@
 
 
 
-import { useEffect } from 'react';
+import React, { useEffect } from 'react';
 import aboutme from "./assets/AboutMe.png"
 import experience from "./assets/experience.png"
 import Education from "./assets/Education.png"
@@ -43,6 +43,7 @@ function App() {
                 <h1>I'm 
                     <span  >
                         <Typewriter
+                        
                           onInit={(typewriter)=>{
                             typewriter
                              .typeString("Frontend developer")
@@ -54,7 +55,9 @@ function App() {
                              .typeString("Full stack developer")
                              .pauseFor(1000)
                              .deleteAll()
-                             .start();
+                             .start()
+                             
+                             
                           }}
                         />
                     </span>
