@@ -46,6 +46,9 @@ function App() {
                         
                           onInit={(typewriter)=>{
                             typewriter
+                             .typeString("Girl")
+                             .pauseFor(1000)
+                             .deleteAll()
                              .typeString("Frontend developer")
                              .pauseFor(1000)
                              .deleteAll()
