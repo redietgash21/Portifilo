@@ -3,7 +3,8 @@
 
 
 
-import React, { useEffect } from 'react';
+import React, { useEffect, useRef } from 'react';
+import emailjs from '@emailjs/browser';
 import aboutme from "./assets/AboutMe.png"
 import experience from "./assets/experience.png"
 import Education from "./assets/Education.png"
@@ -18,7 +19,24 @@ import './App.css';
 
 
 function App() {
- 
+    const form = useRef();
+
+    const sendEmail = (e) => {
+      e.preventDefault();
+  
+      emailjs.sendForm(
+         'service_xag7sub', 
+         'template_voxg4ns', 
+         form.current, 
+         'QPZ7GD7FWaJqt3JzA')
+        .then((result) => {
+            console.log("==============//=================");
+            console.log(result.text);
+            console.log("==============//=================");
+        }, (error) => {
+            console.log(error.text);
+        });
+    };
     useEffect(() => {
  
     },[])
@@ -267,16 +285,25 @@ function App() {
           
             <div class="detailsContainer">
                 
-            <form action="">
-                <input type="text" placeholder="name" class="box"/>
-                <input type="email" placeholder="email" class="box"/>
+            <form ref={form} onSubmit={sendEmail}>
+                <input type="text" placeholder="name" class="box" name="user_name"/>
+                <input type="email" placeholder="email" class="box" name="user_email"/>
                 <input type="text" placeholder="project" class="box"/>
-                <textarea name="" id="" cols="30" rows="10" class="box message"
-                placeholder="message">
+                <textarea name="message" id="" cols="30" rows="10" class="box message"
+                placeholder="message" >
 
                 </textarea>
-                <button type="submit" class="btn">Send </button>
+                <button type="submit" class="btn" value="Send" >Send </button>
             </form>
+            {/* 
+      <label>Name</label>
+      <input type="text"  />
+      <label>Email</label>
+      <input type="email"  />
+      <label>Message</label>
+      <textarea  />
+      <input type="submit" />
+    </form> */}
             </div>
             </div>
             </div>
