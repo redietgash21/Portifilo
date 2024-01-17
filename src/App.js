@@ -3,7 +3,7 @@
 
 
 
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import aboutme from "./assets/AboutMe.png"
 import experience from "./assets/experience.png"
@@ -20,6 +20,7 @@ import './App.css';
 
 function App() {
     const form = useRef();
+    const [isTypingRepeated, setIsTypingRepeated] = useState(false);
 
     const sendEmail = (e) => {
       e.preventDefault();
@@ -30,7 +31,7 @@ function App() {
          form.current, 
          'QPZ7GD7FWaJqt3JzA')
         .then((result) => {
-            console.log("==============//=================");
+           alert("Message Sent");
             console.log(result.text);
             console.log("==============//=================");
         }, (error) => {
@@ -38,8 +39,8 @@ function App() {
         });
     };
     useEffect(() => {
- 
-    },[])
+        setIsTypingRepeated(false);
+      }, [isTypingRepeated]);
   return (
     <div className="App">
       <div className='container'>
@@ -64,7 +65,14 @@ function App() {
                         
                           onInit={(typewriter)=>{
                             typewriter
-                             .typeString("Girl")
+    
+                             .typeString("Frontend developer")
+                             .pauseFor(1000)
+                             .deleteAll()
+                             .typeString("Backend developer")
+                             .pauseFor(1000)
+                             .deleteAll()
+                             .typeString("Full stack developer")
                              .pauseFor(1000)
                              .deleteAll()
                              .typeString("Frontend developer")
@@ -76,9 +84,138 @@ function App() {
                              .typeString("Full stack developer")
                              .pauseFor(1000)
                              .deleteAll()
-                             .start()
-                             
-                             
+                             .typeString("Frontend developer")
+                             .pauseFor(1000)
+                             .deleteAll()
+                             .typeString("Backend developer")
+                             .pauseFor(1000)
+                             .deleteAll()
+                             .typeString("Full stack developer")
+                             .pauseFor(1000)
+                             .deleteAll()
+                             .typeString("Frontend developer")
+                             .pauseFor(1000)
+                             .deleteAll()
+                             .typeString("Backend developer")
+                             .pauseFor(1000)
+                             .deleteAll()
+                             .typeString("Full stack developer")
+                             .pauseFor(1000)
+                             .deleteAll()
+                             .typeString("Frontend developer")
+                             .pauseFor(1000)
+                             .deleteAll()
+                             .typeString("Backend developer")
+                             .pauseFor(1000)
+                             .deleteAll()
+                             .typeString("Full stack developer")
+                             .pauseFor(1000)
+                             .deleteAll()
+                             .typeString("Frontend developer")
+                             .pauseFor(1000)
+                             .deleteAll()
+                             .typeString("Backend developer")
+                             .pauseFor(1000)
+                             .deleteAll()
+                             .typeString("Full stack developer")
+                             .pauseFor(1000)
+                             .deleteAll()
+                             .typeString("Frontend developer")
+                             .pauseFor(1000)
+                             .deleteAll()
+                             .typeString("Backend developer")
+                             .pauseFor(1000)
+                             .deleteAll()
+                             .typeString("Full stack developer")
+                             .pauseFor(1000)
+                             .deleteAll()
+                             .typeString("Frontend developer")
+                             .pauseFor(1000)
+                             .deleteAll()
+                             .typeString("Backend developer")
+                             .pauseFor(1000)
+                             .deleteAll()
+                             .typeString("Full stack developer")
+                             .pauseFor(1000)
+                             .deleteAll()
+                             .typeString("Frontend developer")
+                             .pauseFor(1000)
+                             .deleteAll()
+                             .typeString("Backend developer")
+                             .pauseFor(1000)
+                             .deleteAll()
+                             .typeString("Full stack developer")
+                             .pauseFor(1000)
+                             .deleteAll()
+                             .typeString("Frontend developer")
+                             .pauseFor(1000)
+                             .deleteAll()
+                             .typeString("Backend developer")
+                             .pauseFor(1000)
+                             .deleteAll()
+                             .typeString("Full stack developer")
+                             .pauseFor(1000)
+                             .deleteAll()
+                             .typeString("Frontend developer")
+                             .pauseFor(1000)
+                             .deleteAll()
+                             .typeString("Backend developer")
+                             .pauseFor(1000)
+                             .deleteAll()
+                             .typeString("Full stack developer")
+                             .pauseFor(1000)
+                             .deleteAll()
+                             .typeString("Frontend developer")
+                             .pauseFor(1000)
+                             .deleteAll()
+                             .typeString("Backend developer")
+                             .pauseFor(1000)
+                             .deleteAll()
+                             .typeString("Full stack developer")
+                             .pauseFor(1000)
+                             .deleteAll()
+                             .typeString("Frontend developer")
+                             .pauseFor(1000)
+                             .deleteAll()
+                             .typeString("Backend developer")
+                             .pauseFor(1000)
+                             .deleteAll()
+                             .typeString("Full stack developer")
+                             .pauseFor(1000)
+                             .deleteAll()
+                             .typeString("Frontend developer")
+                             .pauseFor(1000)
+                             .deleteAll()
+                             .typeString("Backend developer")
+                             .pauseFor(1000)
+                             .deleteAll()
+                             .typeString("Full stack developer")
+                             .pauseFor(1000)
+                             .deleteAll()
+                             .typeString("Frontend developer")
+                             .pauseFor(1000)
+                             .deleteAll()
+                             .typeString("Backend developer")
+                             .pauseFor(1000)
+                             .deleteAll()
+                             .typeString("Full stack developer")
+                             .pauseFor(1000)
+                             .deleteAll()
+                             .typeString("Frontend developer")
+                             .pauseFor(1000)
+                             .deleteAll()
+                             .typeString("Backend developer")
+                             .pauseFor(1000)
+                             .deleteAll()
+                             .typeString("Full stack developer")
+                             .pauseFor(1000)
+                             .deleteAll()
+                            
+                             .start(
+                                
+                             )
+                                
+                           
                           }}
                         />
                     </span>
@@ -288,7 +425,7 @@ function App() {
             <form ref={form} onSubmit={sendEmail}>
                 <input type="text" placeholder="name" class="box" name="user_name"/>
                 <input type="email" placeholder="email" class="box" name="user_email"/>
-                <input type="text" placeholder="project" class="box"/>
+                <input type="text" placeholder="project" class="box" name="project_name"/>
                 <textarea name="message" id="" cols="30" rows="10" class="box message"
                 placeholder="message" >
 
