@@ -21,7 +21,10 @@ import './App.css';
 function App() {
     const form = useRef();
     const [isTypingRepeated, setIsTypingRepeated] = useState(false);
-
+    
+    const newTab=url=>{
+        window.open(url)
+    }
     const sendEmail = (e) => {
       e.preventDefault();
   
@@ -33,7 +36,7 @@ function App() {
         .then((result) => {
            alert("Message Sent");
             console.log(result.text);
-            console.log("==============//=================");
+            
         }, (error) => {
             console.log(error.text);
         });
@@ -411,10 +414,12 @@ function App() {
                 <img src={linkdin}
                      alt="My linkedin Profile"
                      class="icon"
+                     onClick={()=> newTab('https://www.linkedin.com/in/rediet-gashaw/')}
                     />
                 <img src={github}
                 alt="My linkedin Profile"
                 class="icon"
+                onClick={()=> newTab('https://github.com/redietgash21')}
                />
             </div>
                     </div>
