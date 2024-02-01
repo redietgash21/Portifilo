@@ -266,7 +266,8 @@ function App() {
                           alt="Exprience Icon"
                           class="icon"/>
                         <h3>Exprience</h3>
-                        <p>2+ years Fullstack developer</p>
+                        <p>During my internship at IPDC, I worked on a property
+management system using React, Node.js, and MySQL</p>
                     </div>
                     <div class="detailsContainer">
                         <img
