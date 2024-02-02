@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8c594f5a1ab0832bedcbaefb2ff9d2b7",
+    "revision": "0c06647412cb06a8805fb2b3ac708f7c",
     "url": "/Portifilo/index.html"
   },
   {
-    "revision": "1578fe7666553810dd0b",
-    "url": "/Portifilo/static/css/main.b392e1fb.chunk.css"
+    "revision": "6b0e54d03d316780f8f7",
+    "url": "/Portifilo/static/css/main.fb1d69b9.chunk.css"
   },
   {
     "revision": "1550ffeada6c2f4464c8",
     "url": "/Portifilo/static/js/2.b1eba9a4.chunk.js"
   },
   {
-    "revision": "1578fe7666553810dd0b",
-    "url": "/Portifilo/static/js/main.6a97bf7b.chunk.js"
+    "revision": "6b0e54d03d316780f8f7",
+    "url": "/Portifilo/static/js/main.a463b3d3.chunk.js"
   },
   {
     "revision": "98e4713c45addf1ba174",
