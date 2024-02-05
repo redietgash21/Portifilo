@@ -65,6 +65,17 @@ a:active{
   text-underline-offset: 1rem;
   text-decoration-color: var(--white);
 }
+.nav-btn{
+  padding: 5px;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: var(--yellow);
+  visibility: hidden;
+  opacity: 0;
+  
+}
 .home{
   display: flex;
   width: 80%;
@@ -323,7 +334,32 @@ form {
   margin-bottom: 4rem;
 }
 
-@media(max-width:462px) {
+@media only screen and (max-width:800px) {
+  .nav-btn{
+    visibility: visible;
+    opacity: 1;
+  }
+  .nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    transition: 1s;
+    transform: translateY(-50vh);
+  }
+  .responsive_nav{
+    transform: none;
+  }
+  .nav-close-btn{
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+  }
 
   .home{
     display: flex;

@@ -4,7 +4,9 @@
 
 
 import React, { useEffect, useRef, useState } from 'react';
+import {FaBars, FaTimes } from "react-icons/fa"
 import emailjs from '@emailjs/browser';
+
 import aboutme from "./assets/AboutMe.png"
 import experience from "./assets/experience.png"
 import Education from "./assets/Education.png"
@@ -20,8 +22,11 @@ import './App.css';
 
 function App() {
     const form = useRef();
+    const navRef=useRef();
     const [isTypingRepeated, setIsTypingRepeated] = useState(false);
-    
+    const showNavBar=()=>{
+        navRef.current.classList.toggle("responsive_nav");
+    }
     const newTab=url=>{
         window.open(url)
     }
@@ -49,7 +54,7 @@ function App() {
       <div className='container'>
         <nav id="desktopNav">
           <div className="logo">Rediet Gashaw</div>
-          <div >
+          <div ref={navRef} className='nav'>
             <ul className="navLinks">
               <li><a href="#home">Home</a></li>
               <li><a href="#about">About</a></li>
@@ -57,7 +62,9 @@ function App() {
              
               <li><a href="#contact">Contact</a></li>
             </ul>
+            <button className='nav-btn nav-close-btn' onClick={showNavBar}><FaTimes /></button>
           </div>
+          <button className='nav-btn' onClick={showNavBar}><FaBars/></button>
         </nav>
          <div className="home" id='home'>
             <div className="cols col0">
