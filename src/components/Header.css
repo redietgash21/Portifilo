@@ -1,76 +1,94 @@
 /* Header */
 
-
-
-
 *{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
     --primary-color: #f9ca24;
-    --secondary-color: black;
-    font-size: 75px;
-  }
-  
-header{
-    background-color: var(--secondary-color);
-    color: var(--primary-color);
+  --secondary-color: black;
+}
+.navWrapper{
     padding: 0.5rem 0;
     position: sticky;
     top: 0;
     z-index: 30;
     backdrop-filter: blur(50px);
-    height: 300px;
-    min-width: 1300px;
-  }
-  nav{
-    justify-content: center;
-    float: right;
-  }
-  ul{
-    list-style: none;
+}
+
+.navContent{
+    max-width: 1300px;
     display: flex;
-    gap: 1rem;
     align-items: center;
-  }
-  li{
-    margin:  1rem 1.5rem;
-  }
-  a{
-    color: var(--primary-color);
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 0.9rem;
-    position: relative;
-  }
-  .headerLogo{
-    font-size: 150px;
-    padding-left: 10%;
-    float: left;
+    justify-content: space-between;
+    padding: 1rem 0;
+    margin: 0 auto;
+}
+.headerLogo{
+    width: 12rem;
     height: auto;
-  }
-  nav ul li a:hover,
-  nav ul li a:hover{
+}
+.navContent ul{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    list-style: none;
+}
+.navContent li{
+    margin: 0 1.5rem;
+}
+.menuItem{
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
     color: var(--primary-color);
-    text-decoration: underline 10px var(--primary-color);
-    text-underline-offset: 0.7rem;
+    position: relative;
     
-    
-  }
-  .DLModeBtn{
+}
+.menuItem:hover,
+.menuItem:focus,
+.menuBtn:hover{
+  color: var(--primary-color);
+  text-decoration: underline 7px var(--primary-color);
+  text-underline-offset: 0.7rem;
+   
+}
+.DLModeBtn{
     font-size: 0.9rem;
     font-weight: 500;
     display: flex;
-    height: 9vh;
     align-items: center;
     justify-content: center;
-    color: var(--secondary-color);
     background-color: var(--primary-color);
-    padding: 0.6rem 2rem;
+}
+.menuBtn{
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border: none;
-    outline: 1.5px solid transparent;
-    border-radius: 0,2rem;
-  }
-  section{
-    height: 100vh;
-  }
+    border-radius: 0.4rem;
+    color: aliceblue;
+    background-color: linear-gradient(90deg,var(--primary-color) -0.13%, var(--secondary-color) 99.87%);
+    line-height: 0;
+    transition: all 0.4s ease;
+    display: none;
+}
+.imgLogo{
+    width: 50px;
+    height: 50px;
+ display: none;
+}
+
+@media(max-width:769px){
+    .menuBtn, .imgLogo{
+        display: block;
+    }
+    .navContent ul, .headerLogo{
+        display: none;
+    }
+  
+}
+@media(max-width: 1325px){
+    .navWrapper{
+        padding: 0 2rem;
+    }
+}
