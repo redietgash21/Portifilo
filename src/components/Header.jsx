@@ -4,27 +4,49 @@
 
 
 
-import React from 'react'
+import React, { useState } from 'react'
 import './Header.css';
 import { BrowserRouter } from 'react-router-dom'
 import { HashLink as Link } from "react-router-hash-link";
+import { MdLightMode } from "react-icons/md";
+import { MdClose } from "react-icons/md";
+import { TiThMenuOutline } from "react-icons/ti";
+import Logo from '../assets/Logo.PNG'
+import MobileNav from './MobileNav';
 function Header(){
+  const [openMenu, setOpenMenu]=useState(false);
+
+  const toggleMenu=()=>{
+    setOpenMenu(!openMenu);
+  };
     return(
         <>
+
         <BrowserRouter>
+        <MobileNav isOpen={openMenu} toggleMenu={toggleMenu}/>
           <header>
-         
+          <nav className='navWrapper'> 
+           <div className="navContent">
             <span className='headerLogo'>Rediet Gashaw</span>
-            <nav>                
+            <img src={Logo} className='imgLogo'/>
+                           
                 <ul>
-                    <li><a href=""><Link to='#home'>Home</Link></a></li>
-                    <li><a href=""><Link to='#about'>About</Link></a></li>
-                    <li><a href=""><Link to='#skills'>Exprience</Link></a></li>
-                    <li><a href=""><Link to='#projects'>Projects</Link></a></li>             
-                    <li><a href=""><Link to='#contact'>Contact</Link></a></li>
-                    <button className='DLModeBtn'></button>
+                    <li><Link className="menuItem" to='#home'>Home</Link></li>
+                    <li><Link className="menuItem" to='#about'>About</Link></li>
+                    <li><Link className="menuItem" to='#skills'>Skills</Link></li>
+                    <li><Link className="menuItem" to='#projects'>Projects</Link></li>             
+                    <li><Link className="menuItem" to='#contact'>Contact</Link></li>
+                    <button className='DLModeBtn'><MdLightMode/></button>
+                    
                 </ul>
-                
+                <button className="menuBtn" onClick={toggleMenu}>
+                    <span className={'material-symbols-outlined'}
+                    style={{fontSize:"1.8rem"}}>
+                      {openMenu?<MdClose/>:<TiThMenuOutline/>}
+                      </span>
+                  </button>
+            
+              </div>
             </nav>
           </header>
         </BrowserRouter>
