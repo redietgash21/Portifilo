@@ -3,9 +3,16 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  --primary-color: #f9ca24;
+ 
+}
+:root{
+  --primary-color: #cfb53b;
   --secondary-color: black;
-  font-size: 75px;
+}
+body{
+   min-height: 100vh;
+   background-color: var(--secondary-color);
+   color: var(--primary-color);
 }
 
 

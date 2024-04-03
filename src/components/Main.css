@@ -1,0 +1,79 @@
+
+.container{
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+    border: 1px solid red;
+}
+
+.card{
+    height: 100%;
+    border-radius: 50px;
+    background: linear-gradient(100deg, #3f2601, #996515);
+    transition: 0.5s ease-in-out;
+    transform-style: preserve-3d;
+    /* box-shadow: 
+          #996515 40px 50px 25px,
+          #fefbb5 0px 25px 25px
+    ; */
+}
+.glass{
+    transform-style: preserve-3d;
+    position: absolute;
+    inset: 8px;
+    background: linear-gradient(#3f2601, #996515);
+    border-radius: 55px;
+    border-top-right-radius: 100%;
+    border-left: 1px solid white;
+    border-bottom: 1px solid white;
+    transition: 0.5s ease-in-out;
+}
+.logo{
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform-style: preserve-3d;
+}
+.logo .circle{
+    position: absolute;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    
+    top: 0;
+    right: 0;
+    box-shadow: #3f2601 -10px 10px 20px;
+    transition: 0.5s ease-in-out;
+    backdrop-filter: blur(5px);
+}
+.logo .circle1{
+    width: 110px;
+    transform: translate3d(0,0, 60px);
+    top: 17px;
+    right: 17px;
+    transition-delay: 0.8s;
+}
+.logo .circle2{
+    width: 80px;
+    transform: translate3d(0,0, 80px);
+    top: 23px;
+    right: 23px;
+    transition-delay: 1.2s;
+}
+.logo .circle3{
+    width: 50px;
+    transform: translate3d(0,0, 100px);
+    top: 30px;
+    right: 30px;
+    transition-delay: 1.6s;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo .circle img{
+    width: 75%;
+}
+.content{
+    padding: 100px 60px 0 30px;
+}
