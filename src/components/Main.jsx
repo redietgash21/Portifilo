@@ -6,10 +6,12 @@
 
 
 import React from "react";
-
+import './Main.css'
 import resume from "../assets/Rediet Gashaw-Resume.pdf"
 import aboutme from "../assets/AboutMe.png"
-
+import graduationimg from "../assets/graduationimg.png"
+import bdulogo from "../assets/bdulogo.png"
+import bduwisom from "../assets/bduwisom.jpg"
 function Main(){
 
     return(
@@ -39,17 +41,33 @@ function Main(){
                 <img src={aboutme} />
             </div>
         </section>
-        <section className="about" id="about">
-            <div className="imgFirst">about
-                <div></div>
-                <div></div>
+        <section className="about" id="about">about
+            <div className="container">
+                <div className="card">
+                    <div className="logo">
+                       
+                        <img className="circle circle1" src={bduwisom} alt="" />
+                        
+                        
+                            <img className="circle circle2" src={bdulogo} alt="" />
+                       
+                      
+                           <img className="circle circle3" src={graduationimg} alt="" />
+                        
+                    </div>
+                    <div className="glass">
+                         <div className="content">
+                            hfgjfghjg
+                         </div>
+                    </div>
+                </div>
             </div>
             <div className="imgLast">
                 <div></div>
                 <div></div>
             </div>
         </section>
-        <section className="exprience" id="exprience">
+        <section className="skills" id="skills">
             <div className="imgFirst">skill
                 <div></div>
                 <div></div>
