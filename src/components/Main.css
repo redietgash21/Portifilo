@@ -1,7 +1,7 @@
 
 .container{
-    width: 300px;
-    height: 300px;
+    width: 450px;
+    height: 400px;
     perspective: 1000px;
     border: 1px solid red;
 }
@@ -46,14 +46,14 @@
     backdrop-filter: blur(5px);
 }
 .logo .circle1{
-    width: 110px;
+    width: 90px;
     transform: translate3d(0,0, 60px);
     top: 17px;
     right: 17px;
     transition-delay: 0.8s;
 }
 .logo .circle2{
-    width: 80px;
+    width: 70px;
     transform: translate3d(0,0, 80px);
     top: 23px;
     right: 23px;
@@ -64,8 +64,9 @@
     transform: translate3d(0,0, 100px);
     top: 30px;
     right: 30px;
+   
     transition-delay: 1.6s;
-
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -75,5 +76,25 @@
     width: 75%;
 }
 .content{
-    padding: 100px 60px 0 30px;
+    padding: 100px 20px 0 20px;
+}
+.footer{
+    position: absolute;
+    bottom: 20px;
+    left: 30%;
+}
+.footer .social{
+    transform-style: preserve-3d;
+    display: flex;
+    gap: 10px;
+}
+.footer .social .socialIcon{
+     display: inline-block;
+     width: 30px;
+     height: 30px;
+     border-radius: 50%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-color: #3f2601;
 }
