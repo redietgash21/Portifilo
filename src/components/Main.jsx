@@ -9,9 +9,14 @@ import React from "react";
 import './Main.css'
 import resume from "../assets/Rediet Gashaw-Resume.pdf"
 import aboutme from "../assets/AboutMe.png"
-import graduationimg from "../assets/graduationimg.png"
+import graduationimg from "../assets/graduation.png"
 import bdulogo from "../assets/bdulogo.png"
+import ipdclogo from "../assets/ipdclogo.jpg"
 import bduwisom from "../assets/bduwisom.jpg"
+import { FaFacebook } from "react-icons/fa";
+import { TbWorldWww } from "react-icons/tb";
+import { FaLinkedin } from "react-icons/fa";
+import { FaBuromobelexperte } from "react-icons/fa";
 function Main(){
 
     return(
@@ -57,9 +62,62 @@ function Main(){
                     </div>
                     <div className="glass">
                          <div className="content">
-                            hfgjfghjg
+                            <h1>Bahir Dar University</h1>
+                            <p>I have recently completed my BSc in software engineering from Bahir Dar University. 
+                                With a passion for technology and a solid foundation in IT infrastructure management,</p>
                          </div>
+                         <div className="footer">
+                        <div className="social">
+                            <span className="socialIcon">
+                                <i><TbWorldWww/></i>
+                            </span>
+                            <span className="socialIcon">
+                                <i><FaFacebook/></i>
+                            </span>
+                            <span className="socialIcon">
+                                <i><FaLinkedin/></i>
+                            </span>
+                        </div>
                     </div>
+                    </div>
+                   
+                </div>
+            </div>
+            Experiance
+            <div className="container">
+                <div className="card">
+                    <div className="logo">
+                       
+                        <img className="circle circle1" src={bduwisom} alt="" />
+                        
+                        
+                            <img className="circle circle2" src={ipdclogo} alt="" />
+                       
+                      
+                           {/* <i className="circle circle3" ><FaBuromobelexperte/></i> */}
+                        
+                    </div>
+                    <div className="glass">
+                         <div className="content">
+                            <h3>Industrial Parks Development Corporation </h3>
+                            <p>I have recently completed my BSc in software engineering from Bahir Dar University. 
+                                With a passion for technology and a solid foundation in IT infrastructure management,</p>
+                         </div>
+                         <div className="footer">
+                        <div className="social">
+                            <span className="socialIcon">
+                                <i><TbWorldWww/></i>
+                            </span>
+                            <span className="socialIcon">
+                                <i><FaFacebook/></i>
+                            </span>
+                            <span className="socialIcon">
+                                <i><FaLinkedin/></i>
+                            </span>
+                        </div>
+                    </div>
+                    </div>
+                   
                 </div>
             </div>
             <div className="imgLast">
