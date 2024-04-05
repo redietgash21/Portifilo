@@ -1,9 +1,30 @@
 
+
+
+
+
+
+
+section{
+    padding: 16px;
+}
+h1,p,h2{
+    text-align: center;
+}
+
+.flex{
+    display: grid;
+    grid-template-columns: 
+     repeat(auto-fit, minmax(600px, 1fr));
+    
+    
+}
 .container{
-    width: 450px;
-    height: 400px;
+    width: 600px;
+    height: 600px;
     perspective: 1000px;
     border: 1px solid red;
+    margin-inline: auto;
 }
 
 .card{
@@ -12,10 +33,7 @@
     background: linear-gradient(100deg, #3f2601, #996515);
     transition: 0.5s ease-in-out;
     transform-style: preserve-3d;
-    /* box-shadow: 
-          #996515 40px 50px 25px,
-          #fefbb5 0px 25px 25px
-    ; */
+
 }
 .glass{
     transform-style: preserve-3d;
@@ -43,24 +61,24 @@
     right: 0;
     box-shadow: #3f2601 -10px 10px 20px;
     transition: 0.5s ease-in-out;
-    backdrop-filter: blur(5px);
+    
 }
 .logo .circle1{
-    width: 90px;
+    width: 150px;
     transform: translate3d(0,0, 60px);
     top: 17px;
     right: 17px;
     transition-delay: 0.8s;
 }
 .logo .circle2{
-    width: 70px;
+    width: 130px;
     transform: translate3d(0,0, 80px);
     top: 23px;
     right: 23px;
     transition-delay: 1.2s;
 }
 .logo .circle3{
-    width: 50px;
+    width: 100px;
     transform: translate3d(0,0, 100px);
     top: 30px;
     right: 30px;
@@ -76,7 +94,7 @@
     width: 75%;
 }
 .content{
-    padding: 100px 20px 0 20px;
+    padding: 25% 20px 0 20px;
 }
 .footer{
     position: absolute;
@@ -90,11 +108,16 @@
 }
 .footer .social .socialIcon{
      display: inline-block;
-     width: 30px;
-     height: 30px;
+     width: 50px;
+     height: 50px;
+     font-size: 30px;
      border-radius: 50%;
      display: flex;
      align-items: center;
      justify-content: center;
      background-color: #3f2601;
+}
+img{
+    display: block;
+    
 }

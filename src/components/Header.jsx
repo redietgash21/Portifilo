@@ -36,7 +36,7 @@ function Header(){
                     <li><Link className="menuItem" to='#skills'>Skills</Link></li>
                     <li><Link className="menuItem" to='#projects'>Projects</Link></li>             
                     <li><Link className="menuItem" to='#contact'>Contact</Link></li>
-                    <button className='DLModeBtn'><MdLightMode/></button>
+                    <button className='Dv.LModeBtn'><MdLightMode/></button>
                     
                 </ul>
                 <button className="menuBtn" onClick={toggleMenu}>
@@ -44,7 +44,7 @@ function Header(){
                     style={{fontSize:"1.8rem"}}>
                       {openMenu?<MdClose/>:<TiThMenuOutline/>}
                       </span>
-                  </button>
+                  </button> 
             
               </div>
             </nav>
