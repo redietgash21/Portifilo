@@ -158,9 +158,11 @@ function Main(){
         </section>
         <section className="projects" id="projects">
             projects
+
         </section>
         <section className="contact" id="contact">
             contact type
+            <input type="text" /><input type="text" /><input type="text" />
         </section>
       </main>
     </>
