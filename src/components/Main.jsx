@@ -143,22 +143,18 @@ function Main(){
             </div>
         </section>
         <section className="skills" id="skills">
-            <div className="imgFirst">skill
-                <div></div>
-                <div></div>
-            </div>
-            <div className="imgLast">
-                <div></div>
-                <div></div>
-            </div>
-            <div className="imgFirst">
-                <div></div>
-                <div></div>
-            </div>
-            <div className="imgLast">
-                <div></div>
-                <div></div>
-            </div>
+            Skiils
+            <article>
+                <div className="container"></div>
+            </article>
+            <article>
+                <div className="container">
+                    <div className="smaiiCard"></div>
+                    <div className="smaiiCard"></div>
+                    <div className="smaiiCard"></div>
+                    <div className="smaiiCard"></div>
+                </div>
+            </article>
         </section>
         <section className="projects" id="projects">
             projects
