@@ -23,7 +23,7 @@ function Aboutme(){
           <section  id="about">
             <p>Get To Know More</p>
             <h1>About Me</h1>
-            <div className="flex">
+            <div className="grid">
                 <div className="education">
                     <h2>Education</h2>
                     <div className="container">
@@ -43,7 +43,8 @@ function Aboutme(){
                                 <div className="content">
                                     <h1>Bahir Dar University</h1>
                                     <p>I have recently completed my BSc in software engineering from Bahir Dar University. 
-                                        With a passion for technology and a solid foundation in IT infrastructure management,</p>
+                                        With a passion for tech I have recently completed my BSc in software engineering from Bahir Dar University. 
+                                        With a passion for tech nology and a solid foundation in IT infrastructure management,</p>
                                 </div>
                                 <div className="footer">
                                 <div className="social">

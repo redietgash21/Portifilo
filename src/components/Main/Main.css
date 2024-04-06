@@ -12,22 +12,22 @@ section{
 }
 
 
-.flex{
-    display: flex;
-    flex-wrap: wrap;
-    /* grid-template-columns: 
-     repeat(auto-fit, minmax(600px, 1fr));
-     border: 5px solid pink;   */
+.grid{
+    display: grid;
+    gap: 2em;
+    grid-template-columns: 
+     repeat(auto-fit, minmax(450px, 1fr));
+     border: 5px solid pink;  
 }
 .flex > *{
     border: 5px solid grey;
-    flex-grow: 1;
+   
 }
 .container{
     
-    width: 400px;
-    height: 600px;
-    perspective: 1000px;
+    width: 90%;
+    
+    
     border: 5px solid red;
     margin-inline: auto;
 }
@@ -35,7 +35,7 @@ section{
 .card{
     
     border: 5px solid green;
-    min-height: 100%;
+    min-height: 80vh;
     border-radius: 50px;
     background: linear-gradient(100deg, #3f2601, #996515);
     transition: 0.5s ease-in-out;
@@ -47,7 +47,7 @@ section{
     position: absolute;
     inset: 8px;
     background: linear-gradient(#3f2601, #996515);
-    border-radius: 55px;
+    border-radius: 0.5rem;
     border-top-right-radius: 100%;
     border-left: 1px solid white;
     border-bottom: 1px solid white;
@@ -58,6 +58,7 @@ section{
     right: 0;
     top: 0;
     transform-style: preserve-3d;
+    border: 5px yellow solid;
 }
 .logo .circle{
     position: absolute;
@@ -92,16 +93,14 @@ section{
    
     transition-delay: 1.6s;
     
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 }
 
-.logo .circle img{
-    width: 75%;
-}
+
 .content{
-    padding: 25% 20px 0 20px;
+    padding: 11rem 20px 0 20px;
 }
 .footer{
     position: absolute;

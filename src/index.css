@@ -20,7 +20,7 @@ section{
   max-width: 100%;
 }
 
-button{
+button, input,textarea{
   font-size: 1.5rem;
   border: var(--primary-color) 2px solid;
   background-color: var(--secondary-color);
@@ -29,13 +29,16 @@ button{
   margin: 5px;
  
 }
+input,textarea{
+  width: 90%;
+  margin-left: 5%;
+  
+}
 h1,p,h2{
   text-align: center;
   border: 6px yellow solid;
 }
-img{
-  max-width: 100%;
-}
+
 
 
 /* 
