@@ -1,34 +1,41 @@
 
 
 
-
+.card{
+    min-height: 100vh; 
+}
 
 
 
 section{
     padding: 16px;
 }
-h1,p,h2{
-    text-align: center;
-}
+
 
 .flex{
-    display: grid;
-    grid-template-columns: 
+    display: flex;
+    flex-wrap: wrap;
+    /* grid-template-columns: 
      repeat(auto-fit, minmax(600px, 1fr));
-    
-    
+     border: 5px solid pink;   */
+}
+.flex > *{
+    border: 5px solid grey;
+    flex-grow: 1;
 }
 .container{
-    width: 600px;
+    
+    width: 400px;
     height: 600px;
     perspective: 1000px;
-    border: 1px solid red;
+    border: 5px solid red;
     margin-inline: auto;
 }
 
 .card{
-    height: 100%;
+    
+    border: 5px solid green;
+    min-height: 100%;
     border-radius: 50px;
     background: linear-gradient(100deg, #3f2601, #996515);
     transition: 0.5s ease-in-out;

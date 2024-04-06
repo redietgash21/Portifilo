@@ -28,7 +28,7 @@ function Header(){
           <nav className='navWrapper'> 
            <div className="navContent">
             <span className='headerLogo'>Rediet Gashaw</span>
-            <img src={Logo} className='imgLogo'/>
+            <img src={Logo} className='imgLogo' alt='logo'/>
                            
                 <ul>
                     <li><Link className="menuItem" to='#home'>Home</Link></li>

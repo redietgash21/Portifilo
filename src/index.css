@@ -1,18 +1,40 @@
-
-*{
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
- 
-}
 :root{
   --primary-color: #cfb53b;
   --secondary-color: black;
 }
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: #cfb53b 1px solid;
+ 
+}
+
 body{
-   min-height: 100vh;
+   
    background-color: var(--secondary-color);
    color: var(--primary-color);
+}
+section{
+  min-height: 100vh;
+  max-width: 100%;
+}
+
+button{
+  font-size: 1.5rem;
+  border: var(--primary-color) 2px solid;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  width: 40vw;
+  margin: 5px;
+ 
+}
+h1,p,h2{
+  text-align: center;
+  border: 6px yellow solid;
+}
+img{
+  max-width: 100%;
 }
 
 
