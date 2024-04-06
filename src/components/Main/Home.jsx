@@ -13,17 +13,19 @@ function Home(){
     return(
         <>
        <section id="home">
-        <div >
-            <h2>Hi, I am <p> Front end developer </p>
-             </h2>
-            <div>
-                <button onClick={resume}>Download CV</button>
-                <button>Hire Me</button>
+          <div className="grid">
+            <div >
+                <h2>Hi, I am <p> Front end developer </p>
+                </h2>
+                <div>
+                    <button onClick={resume}>Download CV</button>
+                    <button>Hire Me</button>
+                </div>
             </div>
-        </div>
-        <div>
-            <img src={aboutme} alt="" />
-        </div>
+            <div className="homeImg">
+                <img src={aboutme} alt="" />
+            </div>
+          </div>
        </section>
         </>
     )

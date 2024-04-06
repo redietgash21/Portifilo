@@ -17,24 +17,27 @@ section{
     gap: 2em;
     grid-template-columns: 
      repeat(auto-fit, minmax(450px, 1fr));
-     border: 5px solid pink;  
+    
 }
-.flex > *{
-    border: 5px solid grey;
-   
+
+.homeImg img{
+    width: 300px;
+    height: 300px;
+    border: #3f2601 2px solid;
+    clip-path: circle(50% at -10px -10px);
+    transition: 2s all ease;
+}
+.homeImg img:hover{
+    clip-path: circle(100%);
 }
 .container{
     
     width: 90%;
-    
-    
-    border: 5px solid red;
     margin-inline: auto;
 }
 
 .card{
-    
-    border: 5px solid green;
+  
     min-height: 80vh;
     border-radius: 50px;
     background: linear-gradient(100deg, #3f2601, #996515);
@@ -58,7 +61,7 @@ section{
     right: 0;
     top: 0;
     transform-style: preserve-3d;
-    border: 5px yellow solid;
+   
 }
 .logo .circle{
     position: absolute;

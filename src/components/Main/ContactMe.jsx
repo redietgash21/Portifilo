@@ -6,7 +6,12 @@
 
 import React from "react";
 import './Main.css'
-
+import { FaFacebook } from "react-icons/fa";
+import { FaTelegram } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaTiktok } from "react-icons/fa";
 function ContactMe(){
     return(
         <>
@@ -21,12 +26,12 @@ function ContactMe(){
                     <button>Send</button>
                 </div>
                 <div>
-                    <button>Linkdin</button>
-                    <button>Telegran</button>
-                    <button>Facebook</button>
-                    <button>Whatsapp</button>
-                    <button>Instagram</button>
-                    <button>Tiktok</button>
+                    <button><FaLinkedin/></button>
+                    <button><FaTelegram/></button>
+                    <button><FaFacebook/></button>
+                    <button><FaWhatsapp/></button>
+                    <button><FaInstagram/></button>
+                    <button><FaTiktok/></button>
                 </div>
             </div>
         </section>

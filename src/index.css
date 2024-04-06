@@ -6,7 +6,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  border: #cfb53b 1px solid;
+  
  
 }
 
@@ -18,6 +18,8 @@ body{
 section{
   min-height: 100vh;
   max-width: 100%;
+  align-items: center;
+  justify-content: center;
 }
 
 button, input,textarea{
@@ -30,13 +32,14 @@ button, input,textarea{
  
 }
 input,textarea{
-  width: 90%;
-  margin-left: 5%;
+  width: 85%;
+  justify-content: center;
+  align-items: center;
   
 }
 h1,p,h2{
   text-align: center;
-  border: 6px yellow solid;
+
 }
 
 
