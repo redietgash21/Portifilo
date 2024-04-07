@@ -105,17 +105,17 @@ section{
 .content{
     padding: 11rem 20px 0 20px;
 }
-.footer{
+.cardFooter{
     position: absolute;
     bottom: 20px;
     left: 30%;
 }
-.footer .social{
+.cardFooter .social{
     transform-style: preserve-3d;
     display: flex;
     gap: 10px;
 }
-.footer .social .socialIcon{
+.cardFooter .social .socialIcon{
      display: inline-block;
      width: 50px;
      height: 50px;
@@ -129,4 +129,8 @@ section{
 img{
     display: block;
     
+}
+#projects img{
+    min-height: 500px;
+    width: 100%;
 }

@@ -31,22 +31,25 @@ function Aboutme(){
                             <div className="logo">
                             
                                 <img className="circle circle1" src={bduwisom} alt="" />
-                                
+
                                 
                                     <img className="circle circle2" src={bdulogo} alt="" />
-                            
-                            
                                 <img className="circle circle3" src={graduationimg} alt="" />
-                                
+                            
+                            
                             </div>
                             <div className="glass">
                                 <div className="content">
-                                    <h1>Bahir Dar University</h1>
-                                    <p>I have recently completed my BSc in software engineering from Bahir Dar University. 
-                                        With a passion for tech I have recently completed my BSc in software engineering from Bahir Dar University. 
+                                    <h1>Bahir Dar University</h1><br></br>
+                                    <p> I have recently completed my BSc in software engineering from Bahir Dar University. 
+                                        With a passion for technology and a solid foundation in IT infrastructure management, 
+                                        I am excited about the opportunity to contribute to your team.
+                                        I have recently completed my BSc in software engineering from Bahir Dar University. 
+                                        With a passion for tech I have recently completed my BSc in software engineering from 
+                                        Bahir Dar University. 
                                         With a passion for tech nology and a solid foundation in IT infrastructure management,</p>
                                 </div>
-                                <div className="footer">
+                                <div className="cardFooter">
                                 <div className="social">
                                     <span className="socialIcon">
                                         <a href="https://www.bdu.edu.et/" target="_blank"><TbWorldWww/></a>
@@ -86,11 +89,16 @@ function Aboutme(){
                         </div>
                         <div className="glass">
                             <div className="content">
-                                <h3>Industrial Parks Development Corporation </h3>
-                                <p>I have recently completed my BSc in software engineering from Bahir Dar University. 
-                                    With a passion for technology and a solid foundation in IT infrastructure management,</p>
+                                <h1>Industrial Parks Development Corporation </h1><br></br>
+                                <p>During my internship at IPDC, I worked on a property
+management system using React, Node.js, and MySQL. I
+gained hands-on experience in developing and implementing
+features, ensuring seamless integration between frontend and
+backend components. I also have good communication skills
+and maintain punctuality and commitment to my work.
+</p>
                             </div>
-                            <div className="footer">
+                            <div className="cardFooter">
                             <div className="social">
                                 <span className="socialIcon">
                                     <a href="https://ipdc.gov.et" target="_blank"><TbWorldWww/></a>
@@ -120,3 +128,4 @@ function Aboutme(){
     )
 }
 export default Aboutme
+                                

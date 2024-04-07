@@ -1,0 +1,18 @@
+
+
+
+.footer{
+    justify-content: center;
+    min-height: 70px;
+    border: 5px solid yellow;
+}
+.footer p{
+    font-size: 1.5rem;
+    padding-top: 1rem;
+}
+@media(max-width:800px){
+    .footer p{
+        font-size: 4vw;
+        padding-top: 1rem;
+    }
+}  
