@@ -19,13 +19,23 @@ section{
      repeat(auto-fit, minmax(450px, 1fr));
     
 }
+.homeImg {
+    align-items: center;
+    justify-content: center;
+    background-image: url("../../assets/AboutMee.png");
+     background-size: contain;
+     box-shadow: inset 0 0 0 2000px rgba(37, 43, 2, 0.8);      
+     height:85vh;
+        width: 100%;
+       
+        
 
+}
 .homeImg img{
     width: 300px;
     height: 300px;
     border: #3f2601 2px solid;
-    clip-path: circle(50% at -10px -10px);
-    transition: 2s all ease;
+   
 }
 .homeImg img:hover{
     clip-path: circle(100%);
@@ -154,6 +164,23 @@ img{
     flex-wrap: wrap;
     
     
+}
+.skills  p{
+    font-size: 15px;
+}
+.skills  h3{
+    font-size: 30px;
+    text-align: center;
+    color: #3f2601;
+}
+.boxSkill{
+    border: 5px solid pink;
+}
+.margin{
+    margin: 4% 0 3% 1%;
+}
+.margin-top{
+    margin-top: 5%;
 }
 .percentile{
     position: absolute;

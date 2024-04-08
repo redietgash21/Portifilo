@@ -12,13 +12,13 @@ import aboutme from "../../assets/AboutMe.png"
 
 function Home(){
     const [text] = useTypewriter({
-        words: ['FrontendDeveloper', 'brontendDeveloper'],
+        words: ['Frontend Developer', 'Backend Developer'],
         loop:{},
     });
     return(
         <>
        <section id="home">
-          <div className="grid">
+          <div className="grid homeImg" >
             <div >
                 <h2>Hi, I am 
                     <p style={{fontWeight: 'bold', color: 'green'}}> {text} 
@@ -32,9 +32,9 @@ function Home(){
                     <button>Hire Me</button>
                 </div>
             </div>
-            <div className="homeImg">
+            {/* <div className="homeImg">
                 <img src={aboutme} alt="" />
-            </div>
+            </div> */}
           </div>
        </section>
         </>

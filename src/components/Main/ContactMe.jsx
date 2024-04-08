@@ -40,25 +40,25 @@ function ContactMe(){
                                 </span>
                     <span className="socialIcon">
                                     <a  target="-blank"
-                                    href="https://www.facebook.com/IPDCEthiopiaofficial/">
+                                    href="#">
                                         <FaFacebook/>
                                     </a>
                                 </span>
                     <span className="socialIcon">
                         <a  target="-blank"
-                        href="">
+                        href="#">
                             <FaWhatsapp/>
                         </a>
                     </span>
                     <span className="socialIcon">
                         <a  target="-blank"
-                        href="">
+                        href="#">
                             <FaInstagram/>
                         </a>
                     </span>
                     <span className="socialIcon">
                         <a  target="-blank"
-                        href="">
+                        href="#">
                             <FaTiktok/>
                         </a>
                     </span>
