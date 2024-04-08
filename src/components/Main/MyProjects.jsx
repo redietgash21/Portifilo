@@ -35,7 +35,31 @@ function MyProjects(){
          <section id="projects">
             <h2>My Projects</h2>
               <Carousel responsive={responsive}>
-              <div className="card">
+              <div >
+                    <p>Design Your CV</p>
+                    <div className="card">
+                    <div style={{
+                        height:'80vh',
+                        width:'100%',
+                        objectFit: 'contain',
+                    backgroundImage: `url(${DesignYourCV})`,
+                    backgroundSize:'cover'
+                    
+                     }}>
+                        
+                        <div className="cardFooter">
+                        <div className="social">
+                        <button>Demo</button>
+                            <button>GitHub</button>
+                        </div>
+                            
+                        </div>
+                    </div>
+
+                    </div>
+                    
+                </div>
+              <div >
                     <p>Design Your CV</p>
                     <img src={DesignYourCV} alt="" />
                     <div>
@@ -43,7 +67,7 @@ function MyProjects(){
                         <button>GitHub</button>
                     </div>
                 </div>
-                <div className="card">
+                <div >
                     <p>Design Your CV</p>
                     <img src={DesignYourCV} alt="" />
                     <div>
@@ -51,7 +75,7 @@ function MyProjects(){
                         <button>GitHub</button>
                     </div>
                 </div>
-                <div className="card">
+                <div >
                     <p>Design Your CV</p>
                     <img src={DesignYourCV} alt="" />
                     <div>
@@ -59,7 +83,7 @@ function MyProjects(){
                         <button>GitHub</button>
                     </div>
                 </div>
-                <div className="card">
+                <div >
                     <p>Design Your CV</p>
                     <img src={DesignYourCV} alt="" />
                     <div>
@@ -67,13 +91,22 @@ function MyProjects(){
                         <button>GitHub</button>
                     </div>
                 </div>
-                <div className="card">
+                <div >
                     <p>Design Your CV</p>
-                    <img src={DesignYourCV} alt="" />
-                    <div>
-                        <button>Demo</button>
-                        <button>GitHub</button>
+                    <div style={{
+                        height: '80vh',
+                        width:'400px',
+                    backgroundImage: `url(${DesignYourCV})`,
+                    backgroundSize:'cover'
+                    
+                     }}>
+                        
+                        <div>
+                            <button>Demo</button>
+                            <button>GitHub</button>
+                        </div>
                     </div>
+                    
                 </div>
               </Carousel>
               
