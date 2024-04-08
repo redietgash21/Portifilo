@@ -148,3 +148,47 @@ img{
     padding: 2rem;
     margin: auto;
 }
+
+.felx{
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+.percentile{
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 10%;
+   
+    width: 35vw;
+    height: 7px;
+    background-color: aliceblue;
+}
+.percentileresult{
+    position: absolute;
+    height: 7px;
+    background-color: #996515;
+    top: 0;
+    left: 0;
+}
+.seventy{
+    width: 70%;
+}
+.seventyfive{
+    width: 75%;
+}
+.eighty{
+    width: 80%;
+}
+.eightyfive{
+    width: 85%;
+}
+@media(max-width:977px){
+    .percentile{
+        position: absolute;
+        margin-top: 5px;
+        margin-left: 20%;
+        width: 60vw;
+    
+    }
+}
