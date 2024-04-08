@@ -113,7 +113,12 @@ section{
 .cardFooter .social{
     transform-style: preserve-3d;
     display: flex;
-    gap: 10px;
+    gap: 3em;
+}
+.gap{
+    gap: 5em;
+    margin-left: 50px;
+    /* border: 6px solid pink; */
 }
 .cardFooter .social .socialIcon{
      display: inline-block;
@@ -133,4 +138,13 @@ img{
 #projects img{
     min-height: 500px;
     width: 100%;
+}
+.contactDiv{
+    border: 5px solid #996515;
+}
+.contactDiv a{
+    color: #996515;
+    font-size: 35px;
+    padding: 2rem;
+    margin: auto;
 }

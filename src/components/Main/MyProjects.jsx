@@ -6,36 +6,20 @@
 
 import React from "react";
 import DesignYourCV from '../../assets/DesignYourCV.PNG';
-import Carousel from 'react-multi-carousel';
-import 'react-multi-carousel/lib/styles.css'
+import one from '../../assets/1.PNG';
 
+import { FaGithub } from "react-icons/fa";
+import { TbWorldWww } from "react-icons/tb";
+import { FaLinkedin } from "react-icons/fa";
 
 function MyProjects(){
-    const responsive = {
-        superLargeDesktop: {
-          // the naming can be any, depends on you.
-          breakpoint: { max: 4000, min: 3000 },
-          items: 5
-        },
-        desktop: {
-          breakpoint: { max: 3000, min: 1024 },
-          items: 3
-        },
-        tablet: {
-          breakpoint: { max: 1024, min: 700 },
-          items: 2
-        },
-        mobile: {
-          breakpoint: { max: 700, min: 0 },
-          items: 1
-        }
-      };
+  
     return(
         <>
          <section id="projects">
             <h2>My Projects</h2>
-              <Carousel responsive={responsive}>
-              <div >
+              <div className="grid" >
+              <div className="gap">
                     <p>Design Your CV</p>
                     <div className="card">
                     <div style={{
@@ -49,8 +33,18 @@ function MyProjects(){
                         
                         <div className="cardFooter">
                         <div className="social">
-                        <button>Demo</button>
-                            <button>GitHub</button>
+                        <div className="social">
+                                <span className="socialIcon">
+                                    <a href="https://ipdc.gov.et" target="_blank"><TbWorldWww/></a>
+                                </span>
+                                <span className="socialIcon">
+                                    <a  target="-blank"
+                                    href="https://www.facebook.com/IPDCEthiopiaofficial/">
+                                        <FaGithub />
+                                    </a>
+                                </span>
+                                
+                            </div>
                         </div>
                             
                         </div>
@@ -59,56 +53,42 @@ function MyProjects(){
                     </div>
                     
                 </div>
-              <div >
+                <div className="gap">
                     <p>Design Your CV</p>
-                    <img src={DesignYourCV} alt="" />
-                    <div>
-                        <button>Demo</button>
-                        <button>GitHub</button>
-                    </div>
-                </div>
-                <div >
-                    <p>Design Your CV</p>
-                    <img src={DesignYourCV} alt="" />
-                    <div>
-                        <button>Demo</button>
-                        <button>GitHub</button>
-                    </div>
-                </div>
-                <div >
-                    <p>Design Your CV</p>
-                    <img src={DesignYourCV} alt="" />
-                    <div>
-                        <button>Demo</button>
-                        <button>GitHub</button>
-                    </div>
-                </div>
-                <div >
-                    <p>Design Your CV</p>
-                    <img src={DesignYourCV} alt="" />
-                    <div>
-                        <button>Demo</button>
-                        <button>GitHub</button>
-                    </div>
-                </div>
-                <div >
-                    <p>Design Your CV</p>
+                    <div className="card">
                     <div style={{
-                        height: '80vh',
-                        width:'400px',
-                    backgroundImage: `url(${DesignYourCV})`,
+                        height:'80vh',
+                        width:'100%',
+                        objectFit: 'contain',
+                    backgroundImage: `url(${one})`,
                     backgroundSize:'cover'
                     
                      }}>
                         
-                        <div>
-                            <button>Demo</button>
-                            <button>GitHub</button>
+                        <div className="cardFooter">
+                        <div className="social">
+                        <div className="social">
+                                <span className="socialIcon">
+                                    <a href="https://ipdc.gov.et" target="_blank"><TbWorldWww/></a>
+                                </span>
+                                <span className="socialIcon">
+                                    <a  target="-blank"
+                                    href="https://www.facebook.com/IPDCEthiopiaofficial/">
+                                        <FaGithub />
+                                    </a>
+                                </span>
+                                
+                            </div>
                         </div>
+                            
+                        </div>
+                    </div>
+
                     </div>
                     
                 </div>
-              </Carousel>
+               
+              </div>
               
 
            
