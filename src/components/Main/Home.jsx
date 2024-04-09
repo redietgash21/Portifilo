@@ -5,7 +5,9 @@
 
 
 import React from "react";
+import { BrowserRouter } from 'react-router-dom'
 import {useTypewriter, Cursor } from 'react-simple-typewriter'
+import { HashLink as Link } from "react-router-hash-link";
 import './Main.css'
 import resume from "../../assets/Rediet Gashaw-Resume.pdf"
 import aboutme from "../../assets/AboutMe.png"
@@ -28,8 +30,13 @@ function Home(){
                     </p>
                 </h2>
                 <div>
+                   <a href={resume} download="Rediet Gashaw CV">
                     <button onClick={resume}>Download CV</button>
-                    <button>Hire Me</button>
+                    </a>
+                    <BrowserRouter>
+                    <Link className="menuItem" to='#contact'><button>Hire Me</button></Link>
+                    </BrowserRouter>
+                    
                 </div>
             </div>
             {/* <div className="homeImg">

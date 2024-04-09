@@ -43,11 +43,7 @@ function Aboutme(){
                                     <h1>Bahir Dar University</h1><br></br>
                                     <p> I have recently completed my BSc in software engineering from Bahir Dar University. 
                                         With a passion for technology and a solid foundation in IT infrastructure management, 
-                                        I am excited about the opportunity to contribute to your team.
-                                        I have recently completed my BSc in software engineering from Bahir Dar University. 
-                                        With a passion for tech I have recently completed my BSc in software engineering from 
-                                        Bahir Dar University. 
-                                        With a passion for tech nology and a solid foundation in IT infrastructure management,</p>
+                                        </p>
                                 </div>
                                 <div className="cardFooter">
                                 <div className="social">

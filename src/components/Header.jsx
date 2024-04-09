@@ -37,7 +37,7 @@ function Header(){
                     <li><Link className="menuItem" to='#skills'>Skills</Link></li>
                     <li><Link className="menuItem" to='#projects'>Projects</Link></li>             
                     <li><Link className="menuItem" to='#contact'>Contact</Link></li>
-                    <li className="menuItem"><MdLightMode/></li>
+                    {/* <li className="menuItem"><MdLightMode/></li> */}
                     
                 </ul>
                 <button className="menuBtn" onClick={toggleMenu}>

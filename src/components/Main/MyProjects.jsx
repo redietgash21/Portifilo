@@ -35,11 +35,11 @@ function MyProjects(){
                         <div className="social">
                         <div className="social">
                                 <span className="socialIcon">
-                                    <a href="https://ipdc.gov.et" target="_blank"><TbWorldWww/></a>
+                                    <a href="https://redietgash21.github.io/CVGenerater" target="_blank"><TbWorldWww/></a>
                                 </span>
                                 <span className="socialIcon">
                                     <a  target="-blank"
-                                    href="https://www.facebook.com/IPDCEthiopiaofficial/">
+                                    href="https://github.com/redietgash21/CVGenerater">
                                         <FaGithub />
                                     </a>
                                 </span>
@@ -54,7 +54,7 @@ function MyProjects(){
                     
                 </div>
                 <div className="gap">
-                    <p>Design Your CV</p>
+                    <p>Patient managment system</p>
                     <div className="card">
                     <div style={{
                         height:'80vh',
@@ -69,11 +69,11 @@ function MyProjects(){
                         <div className="social">
                         <div className="social">
                                 <span className="socialIcon">
-                                    <a href="https://ipdc.gov.et" target="_blank"><TbWorldWww/></a>
+                                    <a href="" target="_blank"><TbWorldWww/></a>
                                 </span>
                                 <span className="socialIcon">
                                     <a  target="-blank"
-                                    href="https://www.facebook.com/IPDCEthiopiaofficial/">
+                                    href="">
                                         <FaGithub />
                                     </a>
                                 </span>

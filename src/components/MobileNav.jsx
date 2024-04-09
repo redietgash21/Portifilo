@@ -25,7 +25,7 @@ function MobileNav({isOpen, toggleMenu}){
                     <li><Link className="menuItem" to='#skills'>Skills</Link></li>
                     <li><Link className="menuItem" to='#projects'>Projects</Link></li>             
                     <li><Link className="menuItem" to='#contact'>Contact</Link></li>
-                    <button className='DLModeBtn'><MdClose/></button>
+                    <li className='menuItem'><MdClose/></li>
                     
                 </ul>
            </div>
