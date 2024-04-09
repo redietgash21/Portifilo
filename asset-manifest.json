@@ -1,20 +1,26 @@
 {
   "files": {
-    "main.css": "/Portifilo/static/css/main.fb1d69b9.chunk.css",
-    "main.js": "/Portifilo/static/js/main.a463b3d3.chunk.js",
-    "main.js.map": "/Portifilo/static/js/main.a463b3d3.chunk.js.map",
+    "main.css": "/Portifilo/static/css/main.c0f7706f.chunk.css",
+    "main.js": "/Portifilo/static/js/main.3a6eef8e.chunk.js",
+    "main.js.map": "/Portifilo/static/js/main.3a6eef8e.chunk.js.map",
     "runtime~main.js": "/Portifilo/static/js/runtime~main.9d71ff75.js",
     "runtime~main.js.map": "/Portifilo/static/js/runtime~main.9d71ff75.js.map",
-    "static/js/2.b1eba9a4.chunk.js": "/Portifilo/static/js/2.b1eba9a4.chunk.js",
-    "static/js/2.b1eba9a4.chunk.js.map": "/Portifilo/static/js/2.b1eba9a4.chunk.js.map",
+    "static/js/2.1b60a527.chunk.js": "/Portifilo/static/js/2.1b60a527.chunk.js",
+    "static/js/2.1b60a527.chunk.js.map": "/Portifilo/static/js/2.1b60a527.chunk.js.map",
     "index.html": "/Portifilo/index.html",
-    "precache-manifest.79854c0b98edf23ee8dc045108a9557f.js": "/Portifilo/precache-manifest.79854c0b98edf23ee8dc045108a9557f.js",
+    "precache-manifest.cfac6fed5db75150f77b3691f0d6614e.js": "/Portifilo/precache-manifest.cfac6fed5db75150f77b3691f0d6614e.js",
     "service-worker.js": "/Portifilo/service-worker.js",
-    "static/css/main.fb1d69b9.chunk.css.map": "/Portifilo/static/css/main.fb1d69b9.chunk.css.map",
-    "static/media/AboutMe.png": "/Portifilo/static/media/AboutMe.23e7277c.png",
-    "static/media/Education.png": "/Portifilo/static/media/Education.56623d5f.png",
-    "static/media/Rediet Gashaw-Resume.pdf": "/Portifilo/static/media/Rediet Gashaw-Resume.894c03f9.pdf",
+    "static/css/main.c0f7706f.chunk.css.map": "/Portifilo/static/css/main.c0f7706f.chunk.css.map",
+    "static/media/1.PNG": "/Portifilo/static/media/1.0d657ebc.PNG",
+    "static/media/AboutMe.png": "/Portifilo/static/media/AboutMe.88761e67.png",
+    "static/media/Main.css": "/Portifilo/static/media/AboutMee.23e7277c.png",
+    "static/media/DesignYourCV.PNG": "/Portifilo/static/media/DesignYourCV.faa3059a.PNG",
+    "static/media/Logo.PNG": "/Portifilo/static/media/Logo.3239a30e.PNG",
+    "static/media/Rediet Gashaw-Resume.pdf": "/Portifilo/static/media/Rediet Gashaw-Resume.cb36915e.pdf",
+    "static/media/bdulogo.png": "/Portifilo/static/media/bdulogo.51f2e2b4.png",
+    "static/media/bduwisom.jpg": "/Portifilo/static/media/bduwisom.5222e92c.jpg",
     "static/media/cheackMark.png": "/Portifilo/static/media/cheackMark.4b0b27ea.png",
-    "static/media/experience.png": "/Portifilo/static/media/experience.679a5ec9.png"
+    "static/media/experience.png": "/Portifilo/static/media/experience.f7327e2d.png",
+    "static/media/graduation.png": "/Portifilo/static/media/graduation.e1c117f2.png"
   }
 }
